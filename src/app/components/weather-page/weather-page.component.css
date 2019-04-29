@@ -1,0 +1,9 @@
+
+/* Complete table demo */
+ngbd-table-complete span.ngb-highlight {
+    background-color: yellow;
+  }
+  .img_icon{
+    margin-left:-32px;
+    width:25px;
+  }
