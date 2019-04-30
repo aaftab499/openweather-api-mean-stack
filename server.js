@@ -4,8 +4,9 @@ const express = require('express'),
     request = require('request'),
     bodyParser = require('body-parser');
 
-// configuration for running application within wipro network
-// change proxy flag value to false for running it within wipro network
+// configuration for running application within corporate network
+// change proxy flag value to TRUE with correspong proxyAddress value
+// for running it within corporate network
 proxyFlag = process.env.proxyFlag || false;
 proxyAddress = 'http://10.201.51.101:8080';
 
