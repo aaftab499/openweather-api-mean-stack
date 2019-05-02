@@ -25,7 +25,7 @@ app.use(express.static('dist/openWeather'));
 app.post('/getData', function (req, res) {
     console.log('in get data api', req.body);
     let options = {
-        url: `https://api.openweathermap.org/data/2.5/forecast?lat=${req.body.lat}&lon=${req.body.long}&appid=f5f7c182f4a8850365de9575b191124b&units=metric`,
+        url: `https://api.openweathermap.org/data/2.5/forecast?lat=${req.body.lat}&lon=${req.body.long}&appid=0e77dd366d37d00b0ae3103cf7fb7aab&units=metric`,
         method: "GET",
     }
     if(proxyFlag) {
